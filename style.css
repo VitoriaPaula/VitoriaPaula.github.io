@@ -11,7 +11,7 @@
 
 .divTabela {
     position: static;
-    margin-top: 15%;
+    padding-top: 0%;
 }
 
 .divTabela p {
@@ -36,6 +36,10 @@
 
 #table {
     margin: 0% 3% 0% 3%;
+}
+
+.divGeral { 
+    margin: 0px 0px 220px 0px;
 }
 
 #fotoId {
