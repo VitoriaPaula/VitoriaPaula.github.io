@@ -4,7 +4,10 @@
 <head>
     <link href="./fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet" type='text/css'>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css" type='text/css'/>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type='text/css' />
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
 
     <meta charset="UTF-8" />
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -13,7 +16,6 @@
 
 <body>
     <div id="backgroundId">
-
         <div class="divGeral">
             <div class="divPic">
                 <div id="fotoId" class="card">
@@ -64,8 +66,9 @@
                 </div>
             </div>
         </div> <!-- Fim da parte de apresentação -->
+
         <div class="divTabela">
-            <div class="d-flex flex-column my-2" id="beta">
+            <div class="d-flex flex-column my-2">
                 <table id="table" class="border">
                     <tr class="p-4 mx-2">
                         <th>
@@ -113,9 +116,53 @@
                 </table>
             </div>
         </div>
-        <div>
+        <div id="carouselId">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 m-auto">
+                        <div id="carousel1" class="carousel slide mb-4" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li class="active" data-target="#carousel1" data-slide-to="0"></li>
+                                <li data-target="#carousel1" data-slide-to="1"></li>
+                                <li data-target="#carousel1" data-slide-to="2"></li>
+                            </ol>
 
-        </div>
+                            <div class="carousel-inner">
+                                <!--depois de carousel-inner, dentro de carousel-->
+                                <a href="#carousel1" class="carousel-control-prev" data-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a href="#carousel1" class="carousel-control-next" data-slide="next"><span
+                                        class="carousel-control-next-icon"></span></a>
+
+                                <div class="carousel-item active" id="carouselPicId">
+                                    <img src="./assets/CheerPaulista.jpeg" width="100%" alt="Slide 1">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h3>Cheerleading</h3>
+                                        <p>Praticar esportes é importante, e esse em específico é minha maior paixão.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" id="carouselPicId">
+                                    <img  src="./assets/LivroHP.jpeg" width="100%" alt="Slide 2">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h3>Leitura</h3>
+                                        <p>Ler é um hobby interessante e me permite exercitar minha criatividade!</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" id="carouselPicId">
+                                    <img src="./assets/PrintCodigo.jpeg" width="100%" alt="Slide 3">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h3>Estudar</h3>
+                                        <p>Eu realmente amo aprender coisas novas, então estudar é um prazer!</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- Fim do Carousel-->
     </div> <!-- Background completo -->
 </body>
 

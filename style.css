@@ -39,7 +39,8 @@
 }
 
 .divGeral { 
-    margin: 0px 0px 220px 0px;
+    margin: 0px 0px 260px 0px;
+    max-width: 50%;
 }
 
 #fotoId {
@@ -67,6 +68,7 @@
     left: 60%;
     position: absolute;
     top: 15%;
+    right: 10%;
 }
 
 #pictureId {
@@ -79,6 +81,26 @@
 #infoGrid span {
     color: ivory;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#carouselPicId {
+    width: auto;
+    max-height: 550px;
+}
+
+#carouselId{
+    margin-top: 10%;
+}
+
+#carouselPicId h3{
+    width: fit-content;
+    color:rgb(218, 218, 218);
+    background-color: rgb(15, 30, 80);
+} 
+
+#carouselPicId p{
+    color:rgb(218, 218, 218);
+    background-color: rgb(15, 30, 80);
 }
 
 .fab {
