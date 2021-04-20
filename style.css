@@ -24,6 +24,10 @@
     
 }
 
+#formId {
+    background-color: rgb(218, 218, 218);
+}
+
 #middle{
     border-color: rgb(15, 30, 80);
 }
